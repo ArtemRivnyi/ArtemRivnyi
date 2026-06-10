@@ -63,8 +63,6 @@ I build robust, scalable, and fully observable production systems using modern c
 - 🚀 Validated **1000 req/sec** throughput via k6 load testing
 - 🛑 Sub-500ms p95 latency with 3 API replicas
 
-#### ⚙️ [Node.js DevOps Boilerplate](https://github.com/ArtemRivnyi/my-devops-node-app)
-*Docker containerization, 16 Jest/Supertest tests, GitHub Actions CI/CD.*
 
 #### 🐧 [Bash Automation Toolbox](https://github.com/ArtemRivnyi/bash-toolbox)
 *Production scripts: system monitoring, backup management, service health checks, Telegram alerts.*
