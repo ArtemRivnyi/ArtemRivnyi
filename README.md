@@ -97,7 +97,7 @@ I build robust, scalable, and fully observable production systems using modern c
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.vercel.app/?user=ArtemRivnyi&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">
