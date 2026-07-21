@@ -40,6 +40,12 @@ I build robust, scalable, and fully observable production systems using modern c
 
 ### 🚀 Featured Production Projects
 
+#### 🔒 NextStep (NDA Project) — Web & Mobile Marketplace
+*Premium, full-stack marketplace platform serving the Irish market. (Source code under NDA)*
+- 📱 **Cross-Platform:** Built a responsive web app with **Next.js (React)** and a high-performance mobile app with **Flutter** & Riverpod.
+- ⚡ **Backend & Infrastructure:** Fast API layer, real-time messaging, and secure payment processing via **Stripe**.
+- 🛡️ **Enterprise Quality:** Implemented robust state management, pull-to-refresh, skeleton loaders, and comprehensive test coverage.
+
 #### 🤖 [AI Ticket Classification SaaS](https://github.com/ArtemRivnyi/ai-ticket-classifier) — [Live Demo](https://ai-ticket-classifier.onrender.com)
 *Production SaaS with Google Gemini & OpenAI, Stripe billing, PostgreSQL, Redis, full observability.*
 - 📈 **10,000+ classifications** with 96% accuracy and 98% uptime
@@ -73,24 +79,29 @@ I build robust, scalable, and fully observable production systems using modern c
 
 | Certificate | Issuer | Year |
 |:---|:---|:---|
+| Agents and Workflows | OpenAI | 2026 |
+| Applied AI Foundations | OpenAI | 2026 |
+| AI Foundations | OpenAI | 2026 |
+| DevOps Professional Certificate | PagerDuty & LinkedIn | 2025 |
 | Ubuntu Linux Professional Certificate | Canonical | 2025 |
 | Career Essentials in System Administration | Microsoft | 2025 |
 | Docker Foundations Professional Certificate | Docker | 2025 |
+| Generative AI: Prompt Engineering Basics | IBM | 2025 |
 | Networking Basics | Cisco | 2025 |
-| Generative AI: Prompt Engineering | IBM | 2025 |
 | Technical Support Fundamentals | Google | 2025 |
+| Basics of Technical Support | Google | 2025 |
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ArtemRivnyi&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" />
 </p>
 
 ---
