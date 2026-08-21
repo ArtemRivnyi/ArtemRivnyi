@@ -96,12 +96,20 @@ I build robust, scalable, and fully observable production systems using modern c
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://streak-stats.vercel.app/?user=ArtemRivnyi&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" />
+</p>
+
+### 📈 Contribution Activity
+
+<p align="center">
+  <a href="https://github.com/ArtemRivnyi/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ArtemRivnyi&theme=tokyo-night&hide_border=true&area=true" />
+  </a>
 </p>
 
 ---
