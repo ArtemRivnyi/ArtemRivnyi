@@ -106,13 +106,6 @@ I build robust, scalable, and fully observable production systems using modern c
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" />
 </p>
 
-### 📈 Contribution Activity
-
-<p align="center">
-  <a href="https://github.com/ArtemRivnyi/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ArtemRivnyi&theme=tokyo-night&hide_border=true&area=true" />
-  </a>
-</p>
 
 ---
 
