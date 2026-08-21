@@ -42,36 +42,38 @@ I build robust, scalable, and fully observable production systems using modern c
 
 #### 🔒 NextStep (NDA Project) — Web & Mobile Marketplace
 *Premium, full-stack marketplace platform serving the Irish market. (Source code under NDA)*
-- 📱 **Cross-Platform:** Built a responsive web app with **Next.js (React)** and a high-performance mobile app with **Flutter** & Riverpod.
+- 📱 **Cross-Platform:** Responsive web app with **Next.js (React)** and high-performance mobile app with **Flutter** & Riverpod.
 - ⚡ **Backend & Infrastructure:** Fast API layer, real-time messaging, and secure payment processing via **Stripe**.
-- 🛡️ **Enterprise Quality:** Implemented robust state management, pull-to-refresh, skeleton loaders, and comprehensive test coverage.
+- 🛡️ **Enterprise Quality:** Robust state management, pull-to-refresh, skeleton loaders, and comprehensive test coverage.
 
 #### 🤖 [AI Ticket Classification SaaS](https://github.com/ArtemRivnyi/ai-ticket-classifier) — [Live Demo](https://ai-ticket-classifier.onrender.com)
-*Production SaaS with Google Gemini & OpenAI, Stripe billing, PostgreSQL, Redis, full observability.*
-- 📈 **10,000+ classifications** with 96% accuracy and 98% uptime
-- 🛡️ Tier-based **Stripe subscription billing** (Free / Starter / Pro)
-- 📊 **Prometheus + Grafana** monitoring, 90%+ test coverage
-
-#### 📦 [AWS S3 Simulator](https://github.com/ArtemRivnyi/aws-s3-simulator) — [Live Demo](https://aws-s3-simulator.onrender.com)
-*MinIO-based S3 simulator with complete Loki/Promtail/Grafana observability stack.*
-- 📜 **Loki + Promtail** log aggregation with structured JSON logging
-- 📉 Auto-provisioned **Grafana dashboards** as code
-- 🔬 Prometheus metrics for Flask HTTP performance
+*Enterprise AI support ticket triage API with Google Gemini 2.0 Flash and OpenAI fallback.*
+- 🧠 **Resilient AI Pipeline:** Google Gemini 2.0 Flash primary classification with automatic OpenAI GPT-4 fallback
+- ⚡ **Batch & Real-Time:** Single `/classify` endpoint and bulk CSV batch processing with Redis-backed rate limiting
+- 📊 **Full Observability:** Built-in Prometheus metrics, Sentry error tracking, and automated CI/CD pipeline
 
 #### 📧 [AI Email Support System](https://github.com/ArtemRivnyi/ai-email-support-clothing-store) — Kubernetes + Helm + Terraform
-*Enterprise microservices platform with local LLMs (Ollama), RAG, and full IaC.*
-- 🚀 **Terraform EKS cluster** with automated provisioning
-- ⚙️ Multi-environment **Helm charts** with HPA (3-10 pods)
-- 🔒 Automated TLS via **cert-manager**, OAuth2 Gmail integration
+*Enterprise-grade privacy-first AI automation platform with local LLMs (Ollama) and RAG.*
+- 🚀 **Infrastructure as Code:** Production-ready **Terraform AWS EKS** provisioning with VPC networking
+- ⚙️ **Cloud Native:** Parameterized **Helm charts** for multi-service Kubernetes orchestration
+- 🧠 **Privacy-First AI & RAG:** Local inference with **Ollama (Gemma)** + **FAISS** vector store and Redis Queue (RQ) worker
 
-#### ⚡ [High-Performance Microservice](https://github.com/ArtemRivnyi/Caching-Microservice-Template)
-*Node.js + Traefik load balancer with Terraform + Ansible IaC.*
-- 🚀 Validated **1000 req/sec** throughput via k6 load testing
-- 🛑 Sub-500ms p95 latency with 3 API replicas
+#### 📦 [AWS S3 Simulator](https://github.com/ArtemRivnyi/aws-s3-simulator) — [Live Demo](https://aws-s3-simulator.onrender.com)
+*Self-contained S3-compatible object storage simulator built with MinIO and Flask.*
+- 🗄️ **S3 Compatibility:** MinIO-powered storage engine fully compatible with AWS SDKs
+- 📊 **Monitoring & Observability:** Integrated **Prometheus** metrics export (`/metrics`) and live health checks
+- 💻 **Web UI:** Interactive dashboard for bucket lifecycle and file management
 
+#### 🐳 [Docker Multi-Container Microservices](https://github.com/ArtemRivnyi/docker-multi-container-demo)
+*Containerized multi-service architecture with Redis caching and inter-service communication.*
+- 🔄 **Orchestration:** Multi-tier Docker Compose environment with decoupled services
+- ⚡ **Caching Layer:** Redis in-memory caching for low-latency data access
+- 🛠️ **DevOps Best Practices:** Isolated networking, volume persistence, and environment-based configs
 
 #### 🐧 [Bash Automation Toolbox](https://github.com/ArtemRivnyi/bash-toolbox)
-*Production scripts: system monitoring, backup management, service health checks, Telegram alerts.*
+*Lightweight, cross-platform bash automation suite for sysadmins and DevOps engineers.*
+- 🔔 **Smart Alerting:** System metrics, service health checks, and Telegram alerts with cooldown protection
+- 💾 **Maintenance:** Automated disk usage monitoring, log rotation/cleanup, and backup management
 
 ---
 
@@ -96,7 +98,7 @@ I build robust, scalable, and fully observable production systems using modern c
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true" />
+  <img src="https://github-stats-extended.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true&count_private=true" />
   <img src="https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true" />
 </p>
 
