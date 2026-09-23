@@ -71,6 +71,18 @@ I build robust, scalable, and fully observable production systems using modern c
 - 📊 **Monitoring & Observability:** Integrated **Prometheus** metrics export (`/metrics`) and live health checks
 - 💻 **Web UI:** Interactive dashboard for bucket lifecycle and file management
 
+#### 🚀 [DevOps Automated CI/CD Pipeline & Portfolio](https://github.com/ArtemRivnyi/personal-page-devops) — [Live Demo](https://personal-page-devops.onrender.com)
+*Modern responsive portfolio platform demonstrating enterprise-grade CI/CD and DevOps automation.*
+- 🔄 **Fully Automated CI/CD:** GitHub Actions workflows running linting (ESLint, Stylelint), Jest test suites, and zero-downtime Render deployment
+- ⏰ **Activity Heartbeat:** Scheduled cron workflows syncing GitHub contributions daily without manual updates
+- 🧪 **Test Automation:** 49 automated unit and DOM interaction tests verifying responsive UI, navigation, and theme switches
+
+#### ⚡ [High-Performance Microservice & Load Balancing](https://github.com/ArtemRivnyi/my-devops-node-app)
+*Production-ready Node.js API with Traefik reverse proxy and dynamic horizontal scaling.*
+- ⚖️ **Load Balancing & High Availability:** Traefik reverse proxy routing traffic across 3 API replicas with automated health checks
+- 🚀 **Load Testing:** Validated 1,000 req/sec sustained throughput with k6 load testing and sub-500ms p95 latency
+- 🛡️ **DevOps Standards:** Docker Compose multi-service architecture, structured logging, and 16 Jest unit tests (85%+ coverage)
+
 #### 🐳 [Docker Multi-Container Microservices](https://github.com/ArtemRivnyi/docker-multi-container-demo)
 *Containerized multi-service architecture with Redis caching and inter-service communication.*
 - 🔄 **Orchestration:** Multi-tier Docker Compose environment with decoupled services
@@ -82,22 +94,33 @@ I build robust, scalable, and fully observable production systems using modern c
 - 🔔 **Smart Alerting:** System metrics, service health checks, and Telegram alerts with cooldown protection
 - 💾 **Maintenance:** Automated disk usage monitoring, log rotation/cleanup, and backup management
 
+#### 📜 [Ansible Infrastructure Playbooks (Educational Archive)](https://github.com/ArtemRivnyi/ansible_training)
+*Modular Ansible playbooks demonstrating automated configuration management and server hardening.*
+- 🔧 **Server Provisioning:** Automated Nginx web server deployment, user permissions, and SSH security baselines
+- 🧪 **Idempotency & Testing:** Reusable roles, inventory management, and syntax-checked tasks across Linux hosts
+
 ---
 
-### 📜 Certifications
+### 🎓 Education
 
-| Certificate | Issuer | Year |
-|:---|:---|:---|
-| Agents and Workflows | OpenAI | 2026 |
-| Applied AI Foundations | OpenAI | 2026 |
-| DevOps Professional Certificate | PagerDuty & LinkedIn | 2025 |
-| Ubuntu Linux Professional Certificate | Canonical | 2025 |
-| Career Essentials in System Administration | Microsoft | 2025 |
-| Docker Foundations Professional Certificate | Docker | 2025 |
-| Generative AI: Prompt Engineering Basics | IBM | 2025 |
-| Networking Basics | Cisco | 2025 |
-| Technical Support Fundamentals | Google | 2025 |
-| Basics of Technical Support | Google | 2025 |
+- **Bachelor of Science in Computer Engineering** — *Oles Honchar Dnipro National University* (2020 – 2024)
+  - Accredited degree (B24 № 162181) covering computer architecture, distributed systems, operating systems internals, networking protocols, and algorithmic performance analysis.
+
+---
+
+### 📜 Verified Certifications & Credentials
+
+| Certificate | Issuer | Verification | Year |
+|:---|:---|:---|:---|
+| **Agents and Workflows** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/adgpbixa0h) (ID: `adgpbixa0h`) | 2026 |
+| **Applied AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/lusrtb3r03) (ID: `lusrtb3r03`) | 2026 |
+| **DevOps Professional Certificate** | PagerDuty & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/c40363bb43f80dc44752dc43e24eb94ef3564a230b6a7e3d5b043343e5bc7143) | 2025 |
+| **Ubuntu Linux Professional Certificate** | Canonical & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/1b1991b4f601f8ce5d3281ffcca811ede4d12da7ef5304b5886b3c8cf2e57915/) | 2025 |
+| **Career Essentials in System Administration** | Microsoft & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/6743a0e037a9098dd84b6392ce200a8f0b28d91ffd45d8327a72196c534b72e4/) | 2025 |
+| **Docker Foundations Professional Certificate** | Docker & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/48caa33f32917d260c3a75136465fcf429d75ff315ba6783aa1174a631c6dec7) | 2025 |
+| **Generative AI: Prompt Engineering Basics** | IBM (Coursera) | [Verify Credential](https://coursera.org/verify/D8B1UZRW39XA) (ID: `D8B1UZRW39XA`) | 2025 |
+| **Networking Basics** | Cisco Networking Academy | [Verify Credential](https://www.netacad.com/courses/networking-basics) | 2025 |
+| **Technical Support Fundamentals** | Google (Coursera) | [Verify Credential](https://coursera.org/verify/5F63A6R5AN3A) (ID: `5F63A6R5AN3A`) | 2025 |
 
 ---
 
