@@ -8,7 +8,8 @@ I build robust, scalable, and fully observable production systems using modern c
 💻 **Focus:** Kubernetes, Terraform, AWS, Observability (Prometheus/Grafana/Loki)  
 📧 **Email:** artemrivnyi@outlook.com  
 🔗 **Portfolio:** [personal-page-devops.onrender.com](https://personal-page-devops.onrender.com)  
-💼 **LinkedIn:** [linkedin.com/in/artem-rivnyi](https://linkedin.com/in/artem-rivnyi)
+💼 **LinkedIn:** [linkedin.com/in/artem-rivnyi](https://linkedin.com/in/artem-rivnyi)  
+🌐 **Freelancer:** [freelancer.com/u/ArtemRivnyi](https://www.freelancer.com/u/ArtemRivnyi)
 
 ---
 
@@ -52,6 +53,12 @@ I build robust, scalable, and fully observable production systems using modern c
 - ⚡ **Batch & Real-Time:** Single `/classify` endpoint and bulk CSV batch processing with Redis-backed rate limiting
 - 📊 **Full Observability:** Built-in Prometheus metrics, Sentry error tracking, and automated CI/CD pipeline
 
+#### 🚗 [UA → IE Car Scout & Import Calculator](https://github.com/ArtemRivnyi/ua-ie-car-scout) — [Live Demo](https://ua-ie-car-scout-web.onrender.com)
+*Cross-border automotive market analysis platform and Ireland VRT/Customs import tax calculator.*
+- 🔍 **Multi-Source Scraping:** Parallel resilient scrapers for Ukrainian (AutoRia, RST) and Irish (DoneDeal) markets
+- 💶 **Automated Tax Engine:** Dynamic calculation of customs, VAT (23%), NOx levy, and CO₂-based VRT rates with live currency conversion
+- ⚡ **Full-Stack Stack:** React (Vite) responsive UI, Express REST API, Puppeteer stealth scrapers, and Redis caching
+
 #### 📧 [AI Email Support System](https://github.com/ArtemRivnyi/ai-email-support-clothing-store) — Kubernetes + Helm + Terraform
 *Enterprise-grade privacy-first AI automation platform with local LLMs (Ollama) and RAG.*
 - 🚀 **Infrastructure as Code:** Production-ready **Terraform AWS EKS** provisioning with VPC networking
@@ -83,7 +90,6 @@ I build robust, scalable, and fully observable production systems using modern c
 |:---|:---|:---|
 | Agents and Workflows | OpenAI | 2026 |
 | Applied AI Foundations | OpenAI | 2026 |
-| AI Foundations | OpenAI | 2026 |
 | DevOps Professional Certificate | PagerDuty & LinkedIn | 2025 |
 | Ubuntu Linux Professional Certificate | Canonical | 2025 |
 | Career Essentials in System Administration | Microsoft | 2025 |

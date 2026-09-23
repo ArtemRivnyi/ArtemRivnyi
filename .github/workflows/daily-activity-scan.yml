@@ -1,0 +1,63 @@
+name: Daily GitHub Activity Scan & Cache Refresh
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  activity-scan:
+    name: Scan Activity & Keep Warm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Scan Public Activity & Check Repositories
+        run: |
+          echo "### 🔍 GitHub Daily Activity Scan: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "Scanning public events for user ArtemRivnyi..."
+          
+          STATUS_CODE=$(curl -s -o /tmp/events.json -w "%{http_code}" \
+            -H "User-Agent: Daily-Activity-Scanner" \
+            https://api.github.com/users/ArtemRivnyi/events/public)
+          
+          if [ "$STATUS_CODE" -eq 200 ]; then
+            EVENT_COUNT=$(jq '. | length' /tmp/events.json 2>/dev/null || echo "0")
+            LATEST_EVENT_TYPE=$(jq -r '.[0].type // "None"' /tmp/events.json 2>/dev/null || echo "N/A")
+            LATEST_REPO=$(jq -r '.[0].repo.name // "None"' /tmp/events.json 2>/dev/null || echo "N/A")
+            LATEST_DATE=$(jq -r '.[0].created_at // "None"' /tmp/events.json 2>/dev/null || echo "N/A")
+            
+            echo "- **Status:** ✅ Active ($STATUS_CODE)" >> $GITHUB_STEP_SUMMARY
+            echo "- **Recent Public Events Count:** $EVENT_COUNT" >> $GITHUB_STEP_SUMMARY
+            echo "- **Latest Event:** \`$LATEST_EVENT_TYPE\` in \`$LATEST_REPO\` at $LATEST_DATE" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Status:** ⚠️ Public API returned $STATUS_CODE" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Keep-Alive & Cache Refresh for Stats Badges
+        run: |
+          echo "Pinging profile stats badges to refresh cache..."
+          curl -s -I "https://github-stats-extended.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true&count_private=true" > /dev/null || true
+          curl -s -I "https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true" > /dev/null || true
+          curl -s -I "https://github-stats-extended.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" > /dev/null || true
+          curl -s -I "https://komarev.com/ghpvc/?username=ArtemRivnyi&label=Profile%20Views&color=0e75b6&style=flat" > /dev/null || true
+          echo "- **Stats & Streak Cache:** ✅ Refreshed" >> $GITHUB_STEP_SUMMARY
+
+      - name: Record Scan Heartbeat
+        run: |
+          mkdir -p .github/activity-logs
+          echo "Last scan: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > .github/activity-logs/last_scan.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/activity-logs/last_scan.txt
+          if git diff --staged --quiet; then
+            echo "No change in scan status."
+          else
+            git commit -m "chore(activity): record daily scan heartbeat $(date -u '+%Y-%m-%d')"
+            git push origin main || echo "Push skipped or no credentials"
+          fi
