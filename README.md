@@ -114,13 +114,15 @@ I build robust, scalable, and fully observable production systems using modern c
 |:---|:---|:---|:---|
 | **Agents and Workflows** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/adgpbixa0h) (ID: `adgpbixa0h`) | 2026 |
 | **Applied AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/lusrtb3r03) (ID: `lusrtb3r03`) | 2026 |
+| **AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/elbzr5pdxp) (ID: `elbzr5pdxp`) | 2026 |
 | **DevOps Professional Certificate** | PagerDuty & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/c40363bb43f80dc44752dc43e24eb94ef3564a230b6a7e3d5b043343e5bc7143) | 2025 |
 | **Ubuntu Linux Professional Certificate** | Canonical & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/1b1991b4f601f8ce5d3281ffcca811ede4d12da7ef5304b5886b3c8cf2e57915/) | 2025 |
 | **Career Essentials in System Administration** | Microsoft & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/6743a0e037a9098dd84b6392ce200a8f0b28d91ffd45d8327a72196c534b72e4/) | 2025 |
 | **Docker Foundations Professional Certificate** | Docker & LinkedIn | [Verify Credential](https://www.linkedin.com/learning/certificates/48caa33f32917d260c3a75136465fcf429d75ff315ba6783aa1174a631c6dec7) | 2025 |
 | **Generative AI: Prompt Engineering Basics** | IBM (Coursera) | [Verify Credential](https://coursera.org/verify/D8B1UZRW39XA) (ID: `D8B1UZRW39XA`) | 2025 |
-| **Networking Basics** | Cisco Networking Academy | [Verify Credential](https://www.netacad.com/courses/networking-basics) | 2025 |
+| **Networking Basics** | Cisco Networking Academy | [Verify Credential](https://www.netacad.com/courses/networking-basics) (ID: `e2d48639-f77a-43bb-bd0c-17adc6c8f2e4`) | 2025 |
 | **Technical Support Fundamentals** | Google (Coursera) | [Verify Credential](https://coursera.org/verify/5F63A6R5AN3A) (ID: `5F63A6R5AN3A`) | 2025 |
+| **Basics of Technical Support** | Google (Coursera) | [Verify Credential](https://coursera.org/verify/EPYJQWWE0SGM) (ID: `EPYJQWWE0SGM`) | 2025 |
 
 ---
 
