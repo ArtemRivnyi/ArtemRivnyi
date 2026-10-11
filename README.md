@@ -20,7 +20,7 @@ I build robust, scalable, and fully observable production systems using modern c
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" />
 </p>
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -112,6 +112,7 @@ I build robust, scalable, and fully observable production systems using modern c
 
 | Certificate | Issuer | Verification | Year |
 |:---|:---|:---|:---|
+| **Neo4j Certified Professional** | Neo4j GraphAcademy | [Verify Credential](https://graphacademy.neo4j.com/certificates/24ac5fbb-e01d-4265-86f4-bc3ddd8615cf.pdf) (ID: `24ac5fbb-e01d-4265-86f4-bc3ddd8615cf`) | 2026 |
 | **Agents and Workflows** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/adgpbixa0h) (ID: `adgpbixa0h`) | 2026 |
 | **Applied AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/lusrtb3r03) (ID: `lusrtb3r03`) | 2026 |
 | **AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/elbzr5pdxp) (ID: `elbzr5pdxp`) | 2026 |
