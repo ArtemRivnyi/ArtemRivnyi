@@ -7,7 +7,7 @@ I build robust, scalable, and fully observable production systems using modern c
 🌍 **Location:** Ireland (Remote)  
 💻 **Focus:** Kubernetes, Terraform, AWS, Observability (Prometheus/Grafana/Loki)  
 📧 **Email:** artemrivnyi@outlook.com  
-🔗 **Portfolio:** [personal-page-devops.onrender.com](https://personal-page-devops.onrender.com)  
+🔗 **Portfolio:** [https://artemrivnyi.com/](https://artemrivnyi.com/)  
 💼 **LinkedIn:** [linkedin.com/in/artem-rivnyi](https://linkedin.com/in/artem-rivnyi)  
 🌐 **Freelancer:** [freelancer.com/u/ArtemRivnyi](https://www.freelancer.com/u/ArtemRivnyi)
 
