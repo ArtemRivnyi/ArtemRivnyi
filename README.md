@@ -7,7 +7,7 @@ I build robust, scalable, and fully observable production systems using modern c
 🌍 **Location:** Ireland (Remote)  
 💻 **Focus:** Kubernetes, Terraform, AWS, Observability (Prometheus/Grafana/Loki)  
 📧 **Email:** artemrivnyi@outlook.com  
-🔗 **Portfolio:** [https://artemrivnyi.com](https://artemrivnyi.com)  
+🔗 **Portfolio:** [artemrivnyi.com](https://artemrivnyi.com)  
 💼 **LinkedIn:** [linkedin.com/in/artem-rivnyi](https://linkedin.com/in/artem-rivnyi)  
 🌐 **Freelancer:** [freelancer.com/u/ArtemRivnyi](https://www.freelancer.com/u/ArtemRivnyi)
 
@@ -71,7 +71,7 @@ I build robust, scalable, and fully observable production systems using modern c
 - 📊 **Monitoring & Observability:** Integrated **Prometheus** metrics export (`/metrics`) and live health checks
 - 💻 **Web UI:** Interactive dashboard for bucket lifecycle and file management
 
-#### 🚀 [DevOps Automated CI/CD Pipeline & Portfolio](https://github.com/ArtemRivnyi/personal-page-devops) — [Live Demo](https://personal-page-devops.onrender.com)
+#### 🚀 [DevOps Automated CI/CD Pipeline & Portfolio](https://github.com/ArtemRivnyi/personal-page-devops) — [Live Demo](https://artemrivnyi.com)
 *Modern responsive portfolio platform demonstrating enterprise-grade CI/CD and DevOps automation.*
 - 🔄 **Fully Automated CI/CD:** GitHub Actions workflows running linting (ESLint, Stylelint), Jest test suites, and zero-downtime Render deployment
 - ⏰ **Activity Heartbeat:** Scheduled cron workflows syncing GitHub contributions daily without manual updates
