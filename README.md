@@ -89,10 +89,11 @@ I build robust, scalable, and fully observable production systems using modern c
 - ⚡ **Caching Layer:** Redis in-memory caching for low-latency data access
 - 🛠️ **DevOps Best Practices:** Isolated networking, volume persistence, and environment-based configs
 
-#### 🐧 [Bash Automation Toolbox](https://github.com/ArtemRivnyi/bash-toolbox)
-*Lightweight, cross-platform bash automation suite for sysadmins and DevOps engineers.*
-- 🔔 **Smart Alerting:** System metrics, service health checks, and Telegram alerts with cooldown protection
-- 💾 **Maintenance:** Automated disk usage monitoring, log rotation/cleanup, and backup management
+#### 🧰 [Bash Toolbox (Production SRE & DevOps Suite)](https://github.com/ArtemRivnyi/bash-toolbox)
+*Production-tested suite of 70+ modular Linux, Docker, and Kubernetes diagnostics & maintenance utilities.*
+- 🧪 **Automated Quality:** Continuous ShellCheck static analysis and Bats test suite with sub-30s CI budget
+- ☸️ **Cloud-Native & SRE:** Zero-dependency CLI tools for k8s pod/restart monitoring, container pruning, SSL verification, and socket audits
+- 🔔 **Stateful Alerting:** Low-noise Telegram notifications with cooldown protection and recovery transitions
 
 #### 📜 [Ansible Infrastructure Playbooks (Educational Archive)](https://github.com/ArtemRivnyi/ansible_training)
 *Modular Ansible playbooks demonstrating automated configuration management and server hardening.*
