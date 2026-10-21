@@ -41,11 +41,11 @@ I build robust, scalable, and fully observable production systems using modern c
 
 ### 🚀 Featured Production Projects
 
-#### 🔒 NextStep (NDA Project) — Web & Mobile Marketplace
-*Premium, full-stack marketplace platform serving the Irish market. (Source code under NDA)*
-- 📱 **Cross-Platform:** Responsive web app with **Next.js (React)** and high-performance mobile app with **Flutter** & Riverpod.
-- ⚡ **Backend & Infrastructure:** Fast API layer, real-time messaging, and secure payment processing via **Stripe**.
-- 🛡️ **Enterprise Quality:** Robust state management, pull-to-refresh, skeleton loaders, and comprehensive test coverage.
+#### 🇮🇪 [DealShop (dealshop.ie)](https://dealshop.ie) — Irish Marketplace & Automotive Platform (Closed Beta)
+*Commercial full-stack marketplace and automotive fintech platform serving the Irish market. (Source code under NDA; Live platform in Closed Beta).*
+- 📱 **Cross-Platform:** Responsive web app with **Next.js 16 (React)** and native mobile app with **Flutter** (Google Play closed testing).
+- ⚡ **Backend & Infrastructure:** Fast API layer, real-time messaging, and secure 10-state payment escrow processing via **Stripe**.
+- 🛡️ **Enterprise Quality:** 1,000+ automated tests, full English/Gaeilge bilingual parity, and strict GDPR privacy shield.
 
 #### 🤖 [AI Ticket Classification SaaS](https://github.com/ArtemRivnyi/ai-ticket-classifier) — [Live Demo](https://ai-ticket-classifier.onrender.com)
 *Enterprise AI support ticket triage API with Google Gemini 2.0 Flash and OpenAI fallback.*
