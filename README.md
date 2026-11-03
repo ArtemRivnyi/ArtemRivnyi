@@ -1,19 +1,19 @@
-# 👋 Hi, I'm Artem!
+# 👋 Hi, I'm Artem
 
-**DevOps Engineer | Site Reliability Engineer | Cloud Architect**
+## DevOps Engineer | Site Reliability Engineer | Cloud Architect
 
 I build robust, scalable, and fully observable production systems using modern cloud-native technologies. From Kubernetes orchestration to full-stack observability pipelines — I automate infrastructure, streamline CI/CD, and ensure maximum reliability.
 
 🌍 **Location:** Ireland (Remote)  
 💻 **Focus:** Kubernetes, Terraform, AWS, Observability (Prometheus/Grafana/Loki)  
-📧 **Email:** artemrivnyi@outlook.com  
+📧 **Email:** [artemrivnyi@outlook.com](mailto:artemrivnyi@outlook.com)  
 🔗 **Portfolio:** [artemrivnyi.com](https://artemrivnyi.com)  
 💼 **LinkedIn:** [linkedin.com/in/artem-rivnyi](https://linkedin.com/in/artem-rivnyi)  
 🌐 **Freelancer:** [freelancer.com/u/ArtemRivnyi](https://www.freelancer.com/u/ArtemRivnyi)
 
 ---
 
-### 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
@@ -39,81 +39,101 @@ I build robust, scalable, and fully observable production systems using modern c
 
 ---
 
-### 🚀 Featured Production Projects
+## 🚀 Featured Production Projects
 
-#### 🇮🇪 [DealShop (dealshop.ie)](https://dealshop.ie) — Irish Marketplace & Automotive Platform (Closed Beta)
+### 🇮🇪 [DealShop (dealshop.ie)](https://dealshop.ie) — Irish Marketplace & Automotive Platform (Closed Beta)
+
 *Commercial full-stack marketplace and automotive fintech platform serving the Irish market. (Source code under NDA; Live platform in Closed Beta).*
+
 - 📱 **Cross-Platform:** Responsive web app with **Next.js 16 (React)** and native mobile app with **Flutter** (Google Play closed testing).
 - ⚡ **Backend & Infrastructure:** Fast API layer, real-time messaging, and secure 10-state payment escrow processing via **Stripe**.
 - 🛡️ **Enterprise Quality:** 1,000+ automated tests, full English/Gaeilge bilingual parity, and strict GDPR privacy shield.
 
-#### 🤖 [AI Ticket Classification SaaS](https://github.com/ArtemRivnyi/ai-ticket-classifier) — [Live Demo](https://ai-ticket-classifier.onrender.com)
+### 🤖 [AI Ticket Classification SaaS](https://github.com/ArtemRivnyi/ai-ticket-classifier) — [Live Demo](https://ai-ticket-classifier.onrender.com)
+
 *Enterprise AI support ticket triage API with Google Gemini 2.0 Flash and OpenAI fallback.*
+
 - 🧠 **Resilient AI Pipeline:** Google Gemini 2.0 Flash primary classification with automatic OpenAI GPT-4 fallback
 - ⚡ **Batch & Real-Time:** Single `/classify` endpoint and bulk CSV batch processing with Redis-backed rate limiting
 - 📊 **Full Observability:** Built-in Prometheus metrics, Sentry error tracking, and automated CI/CD pipeline
 
-#### 🚗 [UA → IE Car Scout & Import Calculator](https://github.com/ArtemRivnyi/ua-ie-car-scout) — [Live Demo](https://ua-ie-car-scout-web.onrender.com)
+### 🚗 [UA → IE Car Scout & Import Calculator](https://github.com/ArtemRivnyi/ua-ie-car-scout) — [Live Demo](https://ua-ie-car-scout-web.onrender.com)
+
 *Cross-border automotive market analysis platform and Ireland VRT/Customs import tax calculator.*
+
 - 🔍 **Multi-Source Scraping:** Parallel resilient scrapers for Ukrainian (AutoRia, RST) and Irish (DoneDeal) markets
 - 💶 **Automated Tax Engine:** Dynamic calculation of customs, VAT (23%), NOx levy, and CO₂-based VRT rates with live currency conversion
 - ⚡ **Full-Stack Stack:** React (Vite) responsive UI, Express REST API, Puppeteer stealth scrapers, and Redis caching
 
-#### 📧 [AI Email Support System](https://github.com/ArtemRivnyi/ai-email-support-clothing-store) — Kubernetes + Helm + Terraform
+### 📧 [AI Email Support System](https://github.com/ArtemRivnyi/ai-email-support-clothing-store) — Kubernetes + Helm + Terraform
+
 *Enterprise-grade privacy-first AI automation platform with local LLMs (Ollama) and RAG.*
+
 - 🚀 **Infrastructure as Code:** Production-ready **Terraform AWS EKS** provisioning with VPC networking
 - ⚙️ **Cloud Native:** Parameterized **Helm charts** for multi-service Kubernetes orchestration
 - 🧠 **Privacy-First AI & RAG:** Local inference with **Ollama (Gemma)** + **FAISS** vector store and Redis Queue (RQ) worker
 
-#### 📦 [AWS S3 Simulator](https://github.com/ArtemRivnyi/aws-s3-simulator) — [Live Demo](https://aws-s3-simulator.onrender.com)
+### 📦 [AWS S3 Simulator](https://github.com/ArtemRivnyi/aws-s3-simulator) — [Live Demo](https://aws-s3-simulator.onrender.com)
+
 *Self-contained S3-compatible object storage simulator built with MinIO and Flask.*
+
 - 🗄️ **S3 Compatibility:** MinIO-powered storage engine fully compatible with AWS SDKs
 - 📊 **Monitoring & Observability:** Integrated **Prometheus** metrics export (`/metrics`) and live health checks
 - 💻 **Web UI:** Interactive dashboard for bucket lifecycle and file management
 
-#### 🚀 [DevOps Automated CI/CD Pipeline & Portfolio](https://github.com/ArtemRivnyi/personal-page-devops) — [Live Demo](https://artemrivnyi.com)
+### 🚀 [DevOps Automated CI/CD Pipeline & Portfolio](https://github.com/ArtemRivnyi/personal-page-devops) — [Live Demo](https://artemrivnyi.com)
+
 *Modern responsive portfolio platform demonstrating enterprise-grade CI/CD and DevOps automation.*
+
 - 🔄 **Fully Automated CI/CD:** GitHub Actions workflows running linting (ESLint, Stylelint), Jest test suites, and zero-downtime Render deployment
 - ⏰ **Activity Heartbeat:** Scheduled cron workflows syncing GitHub contributions daily without manual updates
-- 🧪 **Test Automation:** 49 automated unit and DOM interaction tests verifying responsive UI, navigation, and theme switches
+- 🧪 **Test Automation:** 78 automated unit and DOM interaction tests verifying responsive UI, navigation, and theme switches
 
-#### ⚡ [High-Performance Microservice & Load Balancing](https://github.com/ArtemRivnyi/my-devops-node-app)
-*Production-ready Node.js API with Traefik reverse proxy and dynamic horizontal scaling.*
+### 🐳 [Docker Multi-Container Microservices & Load Balancing](https://github.com/ArtemRivnyi/docker-multi-container-demo)
+
+*High-availability containerized microservices with Traefik reverse proxy and dynamic horizontal scaling.*
+
 - ⚖️ **Load Balancing & High Availability:** Traefik reverse proxy routing traffic across 3 API replicas with automated health checks
-- 🚀 **Load Testing:** Validated 1,000 req/sec sustained throughput with k6 load testing and sub-500ms p95 latency
-- 🛡️ **DevOps Standards:** Docker Compose multi-service architecture, structured logging, and 16 Jest unit tests (85%+ coverage)
+- ⚡ **Caching & Persistence:** Redis in-memory caching with AOF persistence and isolated Docker bridge networking
+- ☁️ **Infrastructure as Code:** Automated AWS EC2 deployment via **Terraform** and **Ansible** playbooks
 
-#### 🐳 [Docker Multi-Container Microservices](https://github.com/ArtemRivnyi/docker-multi-container-demo)
-*Containerized multi-service architecture with Redis caching and inter-service communication.*
-- 🔄 **Orchestration:** Multi-tier Docker Compose environment with decoupled services
-- ⚡ **Caching Layer:** Redis in-memory caching for low-latency data access
-- 🛠️ **DevOps Best Practices:** Isolated networking, volume persistence, and environment-based configs
+### 🚀 [DevOps Automated CI/CD & Local Delivery](https://github.com/ArtemRivnyi/my-devops-node-app)
 
-#### 🧰 [Bash Toolbox (Production SRE & DevOps Suite)](https://github.com/ArtemRivnyi/bash-toolbox)
+*Containerized Node.js web service demonstrating automated CI/CD pipelines, testing, and Ansible provisioning.*
+
+- ⚙️ **Local & Remote CI/CD:** Automated PowerShell deployment workflow and GitHub Actions Docker image builds
+- 🧪 **Test Automation:** 16 route integration tests using Jest and Supertest (85%+ code coverage)
+- 📜 **Infrastructure Automation:** Ansible playbooks for automated server provisioning and application runtime setup
+
+### 🧰 [Bash Toolbox (Production SRE & DevOps Suite)](https://github.com/ArtemRivnyi/bash-toolbox)
+
 *Production-tested suite of 70+ modular Linux, Docker, and Kubernetes diagnostics & maintenance utilities.*
+
 - 🧪 **Automated Quality:** Continuous ShellCheck static analysis and Bats test suite with sub-30s CI budget
 - ☸️ **Cloud-Native & SRE:** Zero-dependency CLI tools for k8s pod/restart monitoring, container pruning, SSL verification, and socket audits
 - 🔔 **Stateful Alerting:** Low-noise Telegram notifications with cooldown protection and recovery transitions
 
-#### 📜 [Ansible Infrastructure Playbooks (Educational Archive)](https://github.com/ArtemRivnyi/ansible_training)
+### 📜 [Ansible Infrastructure Playbooks (Educational Archive)](https://github.com/ArtemRivnyi/ansible_training)
+
 *Modular Ansible playbooks demonstrating automated configuration management and server hardening.*
+
 - 🔧 **Server Provisioning:** Automated Nginx web server deployment, user permissions, and SSH security baselines
 - 🧪 **Idempotency & Testing:** Reusable roles, inventory management, and syntax-checked tasks across Linux hosts
 
 ---
 
-### 🎓 Education
+## 🎓 Education
 
 - **Bachelor of Science in Computer Engineering** — *Oles Honchar Dnipro National University* (2020 – 2024)
   - Accredited degree (B24 № 162181) covering computer architecture, distributed systems, operating systems internals, networking protocols, and algorithmic performance analysis.
 
 ---
 
-### 📜 Verified Certifications & Credentials
+## 📜 Verified Certifications & Credentials
 
 | Certificate | Issuer | Verification | Year |
-|:---|:---|:---|:---|
-| **Neo4j Certified Professional** | Neo4j GraphAcademy | [Verify Credential](https://graphacademy.neo4j.com/certificates/24ac5fbb-e01d-4265-86f4-bc3ddd8615cf.pdf) (ID: `24ac5fbb-e01d-4265-86f4-bc3ddd8615cf`) | 2026 |
+| :--- | :--- | :--- | :--- |
+| **Neo4j Certified Professional** | Neo4j GraphAcademy | [Verify Credential](https://graphacademy.neo4j.com/c/24ac5fbb-e01d-4265-86f4-bc3ddd8615cf) (ID: `24ac5fbb-e01d-4265-86f4-bc3ddd8615cf`) | 2026 |
 | **Agents and Workflows** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/adgpbixa0h) (ID: `adgpbixa0h`) | 2026 |
 | **Applied AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/lusrtb3r03) (ID: `lusrtb3r03`) | 2026 |
 | **AI Foundations** | OpenAI Academy | [Verify Credential](https://academy.openai.com/public/certificate/elbzr5pdxp) (ID: `elbzr5pdxp`) | 2026 |
@@ -128,21 +148,20 @@ I build robust, scalable, and fully observable production systems using modern c
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=ArtemRivnyi&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img src="https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=ArtemRivnyi&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 </p>
 
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ArtemRivnyi&layout=compact&theme=radical&hide_border=true" />
 </p>
 
-
 ---
 
-*"Building reliable infrastructure today for the scalable products of tomorrow."*
+> "Building reliable infrastructure today for the scalable products of tomorrow."
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ArtemRivnyi&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
